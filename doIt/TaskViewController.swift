@@ -60,7 +60,7 @@ class TaskViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     
     @IBAction func addTaskButton(_ sender: Any) {
-        
+        performSegue(withIdentifier: "AddTaskSegue", sender: nil)
     }
 
 
