@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="868" y="697"/>
         </scene>
-        <!--View Controller-->
+        <!--Create View Controller-->
         <scene sceneID="0B9-NC-cVr">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="VkF-7f-tff" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="VkF-7f-tff" customClass="CreateViewController" customModule="doIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eDV-Ib-z3v"/>
                         <viewControllerLayoutGuide type="bottom" id="QyC-d1-jRe"/>
@@ -87,12 +87,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R7t-n0-JS7">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="R7t-n0-JS7">
                                 <rect key="frame" x="163" y="230" width="51" height="31"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrP-Vz-FDe">
                                 <rect key="frame" x="156" y="301" width="64" height="30"/>
                                 <state key="normal" title="Add Task"/>
+                                <connections>
+                                    <action selector="addTaskButton:" destination="VkF-7f-tff" eventType="touchUpInside" id="0ZA-lS-79M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -112,6 +115,10 @@
                             <constraint firstItem="tA3-kT-oxX" firstAttribute="centerX" secondItem="ibi-Pa-lT9" secondAttribute="centerX" id="ukL-7d-UyL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="importantSwitch" destination="R7t-n0-JS7" id="kX6-fG-1yB"/>
+                        <outlet property="taskTextField" destination="0qz-JL-n05" id="f2w-Mo-inm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fK9-O8-Q5H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

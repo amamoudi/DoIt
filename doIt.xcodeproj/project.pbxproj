@@ -14,6 +14,7 @@
 		FA178533203B4C9800EAF7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA178532203B4C9800EAF7CC /* Assets.xcassets */; };
 		FA178536203B4C9800EAF7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA178534203B4C9800EAF7CC /* LaunchScreen.storyboard */; };
 		FA17853E203B57D600EAF7CC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17853D203B57D600EAF7CC /* Task.swift */; };
+		FA178542203C9B3700EAF7CC /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA178541203C9B3700EAF7CC /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA178535203B4C9800EAF7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA178537203B4C9800EAF7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA17853D203B57D600EAF7CC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FA178541203C9B3700EAF7CC /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FA17852A203B4C9800EAF7CC /* TaskViewController.swift */,
 				FA17853D203B57D600EAF7CC /* Task.swift */,
 				FA17852C203B4C9800EAF7CC /* Main.storyboard */,
+				FA178541203C9B3700EAF7CC /* CreateViewController.swift */,
 				FA178532203B4C9800EAF7CC /* Assets.xcassets */,
 				FA178534203B4C9800EAF7CC /* LaunchScreen.storyboard */,
 				FA178537203B4C9800EAF7CC /* Info.plist */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA178542203C9B3700EAF7CC /* CreateViewController.swift in Sources */,
 				FA17853E203B57D600EAF7CC /* Task.swift in Sources */,
 				FA17852B203B4C9800EAF7CC /* TaskViewController.swift in Sources */,
 				FA178531203B4C9800EAF7CC /* doIt.xcdatamodeld in Sources */,

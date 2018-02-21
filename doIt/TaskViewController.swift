@@ -62,7 +62,12 @@ class TaskViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBAction func addTaskButton(_ sender: Any) {
         performSegue(withIdentifier: "AddTaskSegue", sender: nil)
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! CreateViewController
+        nextVC.previouVC = self
+    }
+    
 
 }
 
