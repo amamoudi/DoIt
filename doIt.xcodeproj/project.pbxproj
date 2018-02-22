@@ -15,6 +15,7 @@
 		FA178536203B4C9800EAF7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA178534203B4C9800EAF7CC /* LaunchScreen.storyboard */; };
 		FA17853E203B57D600EAF7CC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17853D203B57D600EAF7CC /* Task.swift */; };
 		FA178542203C9B3700EAF7CC /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA178541203C9B3700EAF7CC /* CreateViewController.swift */; };
+		FA178544203DF54200EAF7CC /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA178543203DF54200EAF7CC /* CompleteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FA178537203B4C9800EAF7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA17853D203B57D600EAF7CC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		FA178541203C9B3700EAF7CC /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		FA178543203DF54200EAF7CC /* CompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 				FA178528203B4C9800EAF7CC /* AppDelegate.swift */,
 				FA17852A203B4C9800EAF7CC /* TaskViewController.swift */,
 				FA17853D203B57D600EAF7CC /* Task.swift */,
-				FA17852C203B4C9800EAF7CC /* Main.storyboard */,
 				FA178541203C9B3700EAF7CC /* CreateViewController.swift */,
+				FA178543203DF54200EAF7CC /* CompleteViewController.swift */,
+				FA17852C203B4C9800EAF7CC /* Main.storyboard */,
 				FA178532203B4C9800EAF7CC /* Assets.xcassets */,
 				FA178534203B4C9800EAF7CC /* LaunchScreen.storyboard */,
 				FA178537203B4C9800EAF7CC /* Info.plist */,
@@ -150,6 +153,7 @@
 				FA17852B203B4C9800EAF7CC /* TaskViewController.swift in Sources */,
 				FA178531203B4C9800EAF7CC /* doIt.xcdatamodeld in Sources */,
 				FA178529203B4C9800EAF7CC /* AppDelegate.swift in Sources */,
+				FA178544203DF54200EAF7CC /* CompleteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
